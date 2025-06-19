@@ -8,13 +8,3 @@ services:
     environment:
       - NODE_ENV=production
     restart: unless-stopped
-
-  nginx:
-    image: nginx:alpine
-    ports:
-      - "80:80"
-    volumes:
-      - ./nginx.conf:/etc/nginx/conf.d/default.conf
-    depends_on:
-      - nodeapp
-    restart: unless-stopped

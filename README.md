@@ -2,6 +2,9 @@
 
 A simple Express.js application containerized with Docker and served through an Nginx reverse proxy.
 
+![Application Screenshot](./nginx-interceptor.png)  
+*Figure 1: Application running at localhost*
+
 ## Features
 
 - 🐳 Docker containerization
@@ -44,8 +47,9 @@ docker-compose up -d
 
 ## Accessing the Application
 
-- **Direct Node.js access**: http://localhost:3000
-- **Through Nginx proxy**: http://localhost
+- **Through Nginx proxy**: http://localhost  
+  ![Nginx Proxy Access](./nginx-screenshot.png)  
+  *Figure 3: Application accessed through Nginx reverse proxy*
 
 ## Project Structure
 
@@ -53,10 +57,11 @@ docker-compose up -d
 project/
 ├── Dockerfile          # Node.js container configuration
 ├── docker-compose.yml  # Multi-container orchestration
-├── nginx.conf     # Nginx reverse proxy configuration
-├── app.js              # Main application file
-├── package.json        # Node.js dependencies
-└── README.md           # This file
+├── nginx.conf         # Nginx reverse proxy configuration
+├── app.js             # Main application file
+├── package.json       # Node.js dependencies
+├── screenshot.png     # Application screenshot
+└── README.md          # This file
 ```
 
 ## Docker Commands
@@ -99,14 +104,3 @@ project/
 ---
 
 **Happy Coding!** 🚀
-```
-
-This README includes:
-1. Clear project description
-2. Setup instructions for both development and production
-3. Access information
-4. Project structure overview
-5. Common Docker commands
-6. Customization options
-7. Troubleshooting guide
-8. License information

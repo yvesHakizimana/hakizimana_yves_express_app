@@ -48,7 +48,7 @@ docker-compose up -d
 ## Accessing the Application
 
 - **Through Nginx proxy**: http://localhost  
-  ![Nginx Proxy Access](./nginx-screenshot.png)  
+  ![Nginx Proxy Access](./nginx-interceptor.png)  
   *Figure 3: Application accessed through Nginx reverse proxy*
 
 ## Project Structure

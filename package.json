@@ -1,0 +1,15 @@
+{
+  "name": "express-js-application",
+  "version": "1.0.0",
+  "description": "Simple Express Application.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
